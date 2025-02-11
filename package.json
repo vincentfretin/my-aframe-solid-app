@@ -1,0 +1,29 @@
+{
+  "name": "my-aframe-solid-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "concurrently vite \"node server.cjs\"",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.3",
+    "networked-aframe": "^0.14.0",
+    "solid-js": "^1.9.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "@vitejs/plugin-basic-ssl": "^1.2.0",
+    "concurrently": "^9.1.2",
+    "prettier": "^3.5.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.6",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
