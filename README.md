@@ -1,3 +1,9 @@
+# Networked-Aframe project with Vite and SolidJS
+
+That project was created from [that tutorial](https://github.com/c-frame/aframewiki/blob/gh-pages/en/pages/solidjs.md).
+
+Demo: https://my-aframe-solid-app.glitch.me
+
 ## Usage
 
 ```bash
@@ -13,7 +19,7 @@ In the project directory, you can run:
 ### `npm run dev`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Open [https://localhost:5173](https://localhost:5173) to view it in the browser.
 
 ### `npm run build`
 
