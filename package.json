@@ -7,6 +7,7 @@
     "start": "node server.cjs",
     "dev": "concurrently vite \"node server.cjs\"",
     "build": "tsc -b && vite build",
+    "prettier": "prettier --write 'src/**/*.ts?' '*.md' index.html",
     "preview": "vite preview"
   },
   "dependencies": {
