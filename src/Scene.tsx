@@ -30,7 +30,6 @@ export function Scene() {
   return (
     <a-scene
       inspector="url: https://cdn.jsdelivr.net/gh/c-frame/aframe-editor@1.7.x/dist/aframe-editor.min.js"
-      renderer="physicallyCorrectLights: true;"
       networked-scene="
           room: basic;
           adapter: wseasyrtc;"
