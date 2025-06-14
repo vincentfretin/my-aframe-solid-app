@@ -31,6 +31,7 @@ export function Scene() {
     <a-scene
       inspector="url: https://cdn.jsdelivr.net/gh/c-frame/aframe-editor@1.7.x/dist/aframe-editor.min.js"
       networked-scene="
+          connectOnLoad: false;
           room: basic;
           adapter: wseasyrtc;"
     >
