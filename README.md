@@ -2,7 +2,10 @@
 
 That project was created from [that tutorial](https://github.com/c-frame/aframewiki/blob/gh-pages/en/pages/solidjs.md).
 
-Demo: https://my-aframe-solid-app.glitch.me
+Demo: https://vincentfretin.github.io/my-aframe-solid-app/
+
+The demo is hosted on GitHub Pages so networked-aframe was disabled with `networked-scene="connectOnLoad: false; ..."` in `src/Scene.tsx`.
+If you run the example on your machine or a server, don't forget to change `connectOnLoad` back to `true`.
 
 ## Usage
 
