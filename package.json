@@ -7,6 +7,7 @@
     "start": "node server.cjs",
     "dev": "concurrently vite \"node server.cjs\"",
     "build": "tsc -b && vite build",
+    "deploy": "npm run build && gh-pages -d dist",
     "prettier": "prettier --write 'src/**/*.ts?' '*.md' index.html",
     "preview": "vite preview"
   },
@@ -20,6 +21,7 @@
     "@tailwindcss/vite": "^4.0.6",
     "@vitejs/plugin-basic-ssl": "^1.2.0",
     "concurrently": "^9.1.2",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.5.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.0.6",

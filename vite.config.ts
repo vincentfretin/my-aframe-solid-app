@@ -4,6 +4,7 @@ import solid from "vite-plugin-solid";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
+  base: './', // to deploy to GitHub Pages without custom domain
   server: {
     host: "0.0.0.0",
     proxy: {
